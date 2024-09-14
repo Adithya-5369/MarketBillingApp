@@ -1,0 +1,8 @@
+	WELCOME TO 'ADITHYA GENERAL STORES'
+Customer Name: 				Bill Number: 
+Mobile Number: 				Date: 21/03/2024-00:46
+----------------------------------------------------------------------------------
+Product Name			Quantity		Total Cost(Rs.)
+----------------------------------------------------------------------------------
+Drawing Sheet			4		Rs. 32/-
+
