@@ -6,6 +6,8 @@
 
 MarketBillingApp is a Python-based application designed to streamline the process of generating, managing, and printing supermarket invoices. With a user-friendly interface, this application enables you to input customer details, add products, generate a detailed bill, save or retrieve the bill later using the bill number, and print the invoice directly from the app.
 
+---
+
 **Features:**
 
 - **Intuitive Interface:** Easily input customer information and product details.
@@ -14,6 +16,8 @@ MarketBillingApp is a Python-based application designed to streamline the proces
 - **Retrieve Bills:** Searches for a specific bill by bill number to view the details from the saved `.txt` files.
 - **Print Invoice:** Prints the generated bill directly from the application.
 - **Persistent Storage:** All bills are saved in the `bills` folder for future access.
+
+---
 
 **How to Use:**
 
@@ -27,6 +31,8 @@ MarketBillingApp is a Python-based application designed to streamline the proces
 
 **Note:** Do not delete the `bills` folder, as it stores all generated bills.
 
+---
+
 **Requirements:**
 
 1. **Python 3.x:** The application is developed using Python, so a Python 3.x installation is required.
@@ -36,10 +42,21 @@ MarketBillingApp is a Python-based application designed to streamline the proces
 5. **File System:** A folder named `bills` should exist in the application's directory, as all saved bills will be stored here. Ensure the folder is not deleted, as it contains the saved bill data.
 6. **Printer Access:** The application allows the printing of bills via the `os.startfile` command. The system running the application must have access to a connected printer or print service for this function to work.
 
+---
+
 **Additional Notes:**
 
 1. Ensure the bills folder exists in the project directory before running the application, as it is necessary for saving and printing invoices.
 2. The print functionality relies on the operating system's built-in print service, so it may behave differently depending on the OS (e.g., Windows or Linux).
+
+---
+
+## 🛡 License
+
+This project is licensed under the [MIT License](LICENSE).  
+You are free to use, modify, and distribute this code with attribution.
+
+---
 
 **By:**
 Adithya Sai Srinivas
